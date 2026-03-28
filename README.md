@@ -8,3 +8,9 @@ This project implements a minimal MLOps pipeline:
 
 ## How to Run
 python run.py --input data.csv --config config.yaml --output metrics.json --log-file run.log
+
+## Features
+- Config-driven reproducible pipeline
+- Rolling mean signal generation
+- Structured metrics output
+- Logging for observability
